@@ -79,7 +79,7 @@ body {
     pointer-events: none;
   }
   .group .input {
-    width: 270px;
+    width: auto;
     height: 40px;
     background-color: #ececec;
     border: solid 1px #ececec;
