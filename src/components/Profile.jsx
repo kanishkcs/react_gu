@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/index.css";
 import Nav from "./Nav";
 import Input from "./Input";
+import ImgUpload from "./ImgUpload";
 
 export const Profile = () => {
   return (
@@ -12,7 +13,7 @@ export const Profile = () => {
         <div className="container">
           <div className="form">
             <h2>Comple Your Profile</h2>
-            
+            <ImgUpload/>
             <form>
               <div className="group">
                 <Input />
