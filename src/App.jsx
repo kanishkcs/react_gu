@@ -1,12 +1,8 @@
+import * as bootstrap from 'bootstrap'
+
 import Login from './components/Login';
 import Signup from './components/Signup';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  BrowserRouter,
-  Routes,
-} from "react-router-dom";
+import {Route,BrowserRouter, Routes,} from "react-router-dom";
 import { Profile } from './components/Profile';
 function App() {
  return( 
